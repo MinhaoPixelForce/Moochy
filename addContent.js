@@ -1,5 +1,3 @@
-document.body.onload = addElement;
-
 function addElement() {
   // create a new div element
     const newDivStyle = {
@@ -22,3 +20,4 @@ function addElement() {
     const currentDiv = document.getElementById("div1");
     document.body.insertBefore(newDiv, currentDiv);
 }
+addElement();
